@@ -78,9 +78,25 @@ p{
     display:flex;
     flex-direction:row;
     margin:20px 15%;
+    
 
 }
-
+.problem{
+    max-width:50%;
+    justify-content:space-between;
+}
+.solution{
+    max-width:50%;
+    justify-content:space-between;
+}
+.interviewplan{
+    text-align:center;
+    padding-right:20px;
+    max-width:50%;
+}
+.surveyresults{
+    max-width: 40%;
+}
 .button2 {
     text-align:center;
 }
@@ -173,10 +189,6 @@ hr {
     width:50%;
     margin: 0 auto;
 
-}
-.accomp{
-    justify-content:center;
-    margin:0 auto;
 }
 
 
@@ -271,6 +283,23 @@ button:active {
     }
     .flexbox{
         flex-direction:column;
+    }
+    .problem{
+        max-width:100%;
+        justify-content:space-between;
+    }
+    .solution{
+        max-width:100%;
+        justify-content:space-between;
+    }
+    .interviewplan{
+        text-align:center;
+        padding-right:20px;
+        max-width:100%;
+    }
+    .surveyresults{
+        width:500px;
+        object-fit:cover;
     }
     
 }

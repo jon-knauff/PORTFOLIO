@@ -4,8 +4,6 @@ body {
     color:black;
 }
 
-
-
 .inline-block {
     display:inline-block;
     padding:10px;
@@ -20,10 +18,10 @@ a {
     text-decoration: none;
 }
 a:hover{
-    color:purple;
+    color:black;
 }
 .inline-block:hover {
-    color:purple;
+    color:black;
     font-weight:bolder;
 }
 .name {
@@ -36,6 +34,9 @@ a:hover{
 }
 h1{
     margin:0px;
+    text-align:center;
+}
+h3{
     text-align:center;
 }
 p{
@@ -78,9 +79,9 @@ p{
     display:flex;
     flex-direction:row;
     margin:20px 15%;
-    
-
+    gap: 50px;
 }
+
 .problem{
     max-width:50%;
     justify-content:space-between;
@@ -100,6 +101,60 @@ p{
 .button2 {
     text-align:center;
 }
+.affinity {
+    text-align:center;
+}
+.persona {
+    text-align:center;
+}
+.valueprop{
+    margin-left:300px;
+    margin-right:300px;
+    text-align:center; 
+}
+.imgflexbox{
+    display:flex;
+    flex-direction:row;
+    margin:30px 15%;
+    gap: 300px;
+    justify-content:center;
+}
+.imgflexbox2{
+    display:flex;
+    flex-direction:row;
+    margin:20px 15%;
+    gap: 150px;
+    justify-content:center;
+}
+.p{
+    text-align:center;
+}
+.animal{
+    text-align:center;
+}
+.buttonflexbox{
+    display:flex;
+    flex-direction:row;
+    margin:20px 15%;
+    gap: 300px;
+    justify-content:center;
+}
+.imgflexbox3{
+    display:flex;
+    flex-direction:row;
+    margin:30px 15%;
+    gap: 300px;
+    justify-content:center;
+}
+.mobilefinal{
+    justify-content:center;
+    margin-left:40px;
+}
+.topbutton{
+    text-align:center;
+}
+
+
 .modal {
     width: 400px;
     background-color:#fff;
@@ -298,6 +353,43 @@ button:active {
         max-width:100%;
     }
     .surveyresults{
+        width:500px;
+        object-fit:cover;
+    }
+    .valueprop{
+        margin-left:20px;
+        margin-right:20px;
+        padding:60px;
+    }
+    .interviewplan{
+        text-align:center;
+        padding-right:0px;
+    
+    }
+    h3{
+        padding:20px;
+    }
+    .probstate{
+        text-align:center;
+    }
+    .uxhyp{
+        text-align:center;
+    }
+    .p{
+        padding:60px;
+    }
+    .imgflexbox{
+        flex-direction:column;
+        width:500px;
+        object-fit:cover;
+    }
+    .imgflexbox2{
+        flex-direction:column;
+        width:500px;
+        object-fit:cover;
+    }
+    .imgflexbox3{
+        flex-direction:column;
         width:500px;
         object-fit:cover;
     }

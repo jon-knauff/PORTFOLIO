@@ -27,3 +27,16 @@ function closePopup() {
     popup.classList.remove("open-popup");
     overlay.style.display = "none";
 }
+    SC.initialize({
+        client_id: 'YOUR_SOUNDCLOUD_CLIENT_ID'
+    });
+
+    SC.stream('/tracks/193113459').then(function(player) {
+        player.play();
+        document.getElementById('soundcloud-player').appendChild(player.container);
+
+        document.getElementById('volume-control').addEventListener('input', function() {
+            var volume = this.value / 100;
+            player.setVolume(volume);
+        });
+    });
